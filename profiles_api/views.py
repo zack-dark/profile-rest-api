@@ -123,7 +123,7 @@ class UserProfileFeedViewSet(viewsets.ModelViewSet):
     permission_classes = (
         permissions.UpdateOwnStatus,
         IsAuthenticated
-        #IsAuthenticatedOrReadOnly
+        #IsAuthenticatedOrReadOnly  
     )
 
     def perform_create(self, serializer):
