@@ -13,7 +13,7 @@ locale-gen en_GB.UTF-8
 # Install Python, SQLite, pip, supervisor, nginx, git, and distutils
 echo "Installing dependencies..."
 apt-get update
-apt-get install -y python3-dev python3-venv sqlite3 python3-pip supervisor nginx git python3-distutils
+apt-get install -y python3-dev python3-venv sqlite3 python3-pip supervisor nginx git python3
 
 # Create project directory and clone the repository
 mkdir -p $PROJECT_BASE_PATH
